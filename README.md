@@ -1,7 +1,7 @@
 # Anusha.R-SRAM
 # Static Random Access Memory (SRAM)
-This Project is developed on open source "ESIM" tool.
-# Installation of ESIM
+This Project contains files to develop SRAM on any open source circuit tool.
+# Installation of ESIM Tool
 1. Download ESIM from this link : https://esim.fossee.in/downloads
 2. After download click on the .exe file;  A window pops up for installation.
 3. Follow intructions to complete esim Installation.
