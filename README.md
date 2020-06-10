@@ -1,4 +1,4 @@
-# Anusha.R-SRAM
+
 # Static Random Access Memory (SRAM)
 This Project contains files to develop SRAM on any open source circuit tool.
 # Installation of ESIM Tool
