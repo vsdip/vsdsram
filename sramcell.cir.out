@@ -1,0 +1,20 @@
+* d:\esim\an\an.cir
+
+.include PMOS-180nm.lib
+.include NMOS-180nm.lib
+m1 /qbar /q vcc vcc CMOSP W=0.9u L=0.18u M=1
+m3 gnd /q /qbar gnd CMOSN W=0.36u L=0.18u M=1
+m5 vcc /qbar /q vcc CMOSP W=0.9u L=0.18u M=1
+m4 /q /qbar gnd gnd CMOSN W=0.36u L=0.18u M=1
+m6 net-_m6-pad1_ /wordline /q gnd CMOSN W=0.36u L=0.18u M=1
+m2 /qbar /wordline net-_m2-pad3_ gnd CMOSN W=0.36u L=0.18u M=1
+* u1  net-_m2-pad3_ /wordline /qbar /q net-_m6-pad1_ port
+.tran 10e-12 1e-09 0e-00 UIC
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
