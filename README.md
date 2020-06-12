@@ -17,7 +17,6 @@ This Project contains files to develop SRAM on any open source circuit tool.
 5. Change to eSim folder using cd command.
 6. To install type: ./install-linux.sh --install
 7. After Installation, to run eSim you can directly run it from terminal by typing esim.
-
 #  To work on Project in Esim 
 1. Create new project in a directory.
 2. Create new Schematic
