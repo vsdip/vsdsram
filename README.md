@@ -1,5 +1,5 @@
 
-# Static Random Access Memory (SRAM)
+# Design Your Own Static Random Access Memory (SRAM) IP.
 This Project contains files to develop SRAM on any open source circuit tool.
 # Installation of ESIM Tool
 1. Download ESIM from this link : https://esim.fossee.in/downloads
