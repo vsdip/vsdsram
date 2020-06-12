@@ -6,6 +6,7 @@ If you are using Windows version.
 1. Download ESIM from this link : https://esim.fossee.in/downloads
 2. If you are using windows version, After download click on the .exe file;  A window pops up for installation.
 3. Follow intructions to complete esim Installation.
+
 If you are using ubuntu- linux version.
 1. Download ESIM for ubuntu from this link : https://esim.fossee.in/downloads
 2. Open terminal or type Ctrl+Alt+t to open command terminal.
