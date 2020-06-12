@@ -2,7 +2,7 @@
 # Design Your Own SRAM IP (Static RAM).
 This Project contains files to develop SRAM on any open source circuit tool.
 # Installation of ESIM Tool
- *If you are using Windows version.
+    *If you are using Windows version.
 1. Download ESIM from this link : https://esim.fossee.in/downloads
 2. After download click on the .exe file;  A window pops up for installation.
 3. Follow intructions to complete esim Installation.
