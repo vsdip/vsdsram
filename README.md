@@ -9,6 +9,7 @@ This Project contains files to develop SRAM on any open source circuit tool.
 4. To run eSim you can directly click on esim icon.
 
     *If you are using Ubuntu Linux Version.
+    
 1. Download ESIM for Ubuntu from this link: https://esim.fossee.in/downloads
 2. Open terminal or type Ctrl+Alt+t to open command terminal.
 3. Change the directory using cd command followed by path to zip file.
