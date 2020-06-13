@@ -1,0 +1,9 @@
+* Subcircuit an_pre
+.subckt an_pre /bl 
+* d:\esim\fossee\esim\library\subcircuitlibrary\an_pre\an_pre.cir
+.include PMOS-180nm.lib
+m1 vcc /bl gnd vcc CMOSP W=100u L=100u M=1
+m2 vcc /bl gnd vcc CMOSP W=100u L=100u M=1
+* Control Statements
+
+.ends an_pre
