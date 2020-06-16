@@ -28,8 +28,8 @@ This Project contains files to develop SRAM on any open source circuit EDA tool.
 7. Convert schematic into netlist. 
 8. Again click on the kicad conversion icon for conversion of Kicad to Pspice netlist. Fill up Analysis and Source details, along with      Device modelling(Attach libraries for pmos and nmos). 
 9. Click on Convert, Kicad to Ngspice conversion will be successfull.
-10.Click on simulation
-11.A ngspice terminal opens up for execution, along with ngspice python plot.
+10. Click on simulation
+11. A ngspice terminal opens up for execution, along with ngspice python plot.
 
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
