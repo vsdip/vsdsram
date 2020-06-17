@@ -2,16 +2,16 @@
 
 .include NMOS-180nm.lib
 .include PMOS-180nm.lib
-m1 /qbar /q net-_m1-pad3_ net-_m1-pad3_ CMOSP W=0.9u L=0.18u M=1
-m3 gnd /q /qbar gnd CMOSN W=0.36u L=0.18u M=1
-m5 net-_m1-pad3_ /qbar /q net-_m1-pad3_ CMOSP W=0.9u L=0.18u M=1
-m4 /q /qbar gnd gnd CMOSN W=0.36u L=0.18u M=1
-m6 /bl /wl /q gnd CMOSN W=0.36u L=0.18u M=1
-m2 /qbar /wl /blbar gnd CMOSN W=0.36u L=0.18u M=1
-* u1  /blbar /qbar port
-v4  /bl gnd pulse(1.8v 1.9v 0.5ns 1ns 1ns 10ns 5ns)
-v3  /q gnd pulse(0v 1.8v 0.5ns 1ns 1ns 10ns 5ns)
-v1  /wl gnd pulse(1.8v 1.9v 0.5ns 1ns 1ns 10ns 5ns)
+m1  qbar  q net-_m1-pad3_ net-_m1-pad3_ CMOSP W=0.9u L=0.18u M=1
+m3 gnd  q  qbar gnd CMOSN W=0.36u L=0.18u M=1
+m5 net-_m1-pad3_  qbar  q net-_m1-pad3_ CMOSP W=0.9u L=0.18u M=1
+m4  q  qbar gnd gnd CMOSN W=0.36u L=0.18u M=1
+m6  bl  wl  q gnd CMOSN W=0.36u L=0.18u M=1
+m2  qbar  wl  blbar gnd CMOSN W=0.36u L=0.18u M=1
+* u1   blbar  qbar port
+v4   bl gnd pulse(1.8v 1.9v 0.5ns 1ns 1ns 10ns 5ns)
+v3   q gnd pulse(0v 1.8v 0.5ns 1ns 1ns 10ns 5ns)
+v1   wl gnd pulse(1.8v 1.9v 0.5ns 1ns 1ns 10ns 5ns)
 v2  net-_m1-pad3_ gnd pulse(1.8v 1.9v 0.5ns 1ns 1ns 10ns 5ns)
 .tran 5e-12 2.5e-09 -2.5e-09
 
