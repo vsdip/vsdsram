@@ -30,6 +30,7 @@ This Project contains files to develop SRAM on any open source circuit EDA tool.
 9. Click on Convert, Kicad to Ngspice conversion will be successfull.
 10. Click on simulation
 11. A ngspice terminal opens up for execution, along with ngspice python plot.
+![](Waveforms/q-qbar.png)
 
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
