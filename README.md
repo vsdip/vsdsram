@@ -1,7 +1,7 @@
 
 # Design Your Own SRAM IP (Static RAM).
 This Project contains files to develop SRAM on any open source circuit EDA tool.
-# Installation of ESIM Tool
+# Installation of ESIM
 ```html
 If you are using Windows Version
 ```
@@ -17,7 +17,7 @@ If you are using ubuntu linux version
 2. Open terminal or type `Ctrl+Alt+t` to open command terminal.
 3. Change the directory using cd command followed by path to zip file.
 4. Unzip the zip file using command: `unzip -q filename.zip` 
-   Or use command: `unzip filename.zip -d /path/to/directory`; in case if ZIP file is in different Directory
+   Or use command: `unzip filename.zip -d /path/to/directory`; in case if ZIP file is in different directory
 5. Change to eSim folder using cd command.
 6. To install type: `./install-linux.sh --install`
 7. After Installation, to run eSim you can directly run it from terminal by typing `esim`.
@@ -27,10 +27,10 @@ If you are using ubuntu linux version
 2. Click on new Schematic
 3. Schematic Editor opens
 4. Draw the schematic and save it.
-5. Annotate the schematic. 
-6. Perform Electrical rules check, to check errors
+5. `Annotate` the schematic. 
+6. Perform `Electrical rules check`, to check errors
 7. Convert schematic into netlist. 
-8. Click on the `kicad conversion` icon for conversion of Kicad to Pspice netlist. Fill up Analysis and Source details, along with     Device modelling(Attach libraries for pmos and nmos). 
+8. Click on the `kicad conversion` icon for conversion of Kicad to Pspice netlist. Fill up Analysis and Source details, along with     device modelling(`Attach libraries for pmos and nmos`). 
 9. Click on Convert, Kicad to Ngspice conversion will be successfull.
 10. Click on simulation
 11. A ngspice terminal opens up for execution, along with ngspice python plot.
