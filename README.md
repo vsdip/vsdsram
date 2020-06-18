@@ -40,11 +40,11 @@ If you are using ubuntu linux version
 To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
 ### To run Simulation
-Download the files or use `git clone **Paste GitHub link**`
+1. Download the files or use `git clone **Paste GitHub link**`
 
-Change the path or directory using `cd/SRAM/Netlist`
+2. Change the path or directory using `cd/SRAM/Netlist`
 
-To Simulate type :`ngspice Sramcell.cir.out`
+3. To Simulate type :`ngspice Sramcell.cir.out`
 
 Or
 
@@ -53,7 +53,9 @@ Type `ngspice` in terminal
 ngspice 1 -> source Sramcell.cir.out
 
 ### To View Simulation Plots:
+
 ngspice 1 -> plot q qbar
+
 ngspice 1 -> plot q qbar wl bl blbar
 
 
