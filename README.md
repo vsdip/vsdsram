@@ -3,16 +3,18 @@
 This Project contains files to develop SRAM on any open source circuit EDA tool.
 # Installation of ESIM Tool
 ```html
-If you
+If you are using Windows Version
 ```
 1. Download ESIM from this link : https://esim.fossee.in/downloads
 2. After download click on the .exe file;  A window pops up for installation.
 3. Follow intructions to complete esim Installation.
 4. To run eSim you can directly click on esim icon.
 
-    *If you are using Ubuntu Linux Version.
+```html
+If you are using ubuntu linux version
+```
 1. Download ESIM for Ubuntu from this link: https://esim.fossee.in/downloads
-2. Open terminal or type Ctrl+Alt+t to open command terminal.
+2. Open terminal or type `Ctrl+Alt+t` to open command terminal.
 3. Change the directory using cd command followed by path to zip file.
 4. Unzip the zip file using command: unzip -q filename.zip 
    Or use command: unzip filename.zip -d /path/to/directory; in case if ZIP file is in different Directory
