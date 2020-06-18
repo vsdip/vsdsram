@@ -46,11 +46,11 @@ To Install Ngspice, Open terminal and Type
 
 3. To Simulate type :`ngspice Sramcell.cir.out`
 
-Or
+   Or
 
-Type `ngspice` in terminal
+   Type `ngspice` in terminal
 
-ngspice 1 -> source Sramcell.cir.out
+   ngspice 1 -> source Sramcell.cir.out
 
 ### To View Simulation Plots:
 
@@ -60,6 +60,7 @@ ngspice 1 -> plot q qbar wl bl blbar
 
 
 To exit from Ngspice Shell type:
+
 ngspice 1 ->  exit
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
