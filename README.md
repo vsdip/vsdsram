@@ -37,7 +37,7 @@ If you are using ubuntu linux version
 ![](Waveforms/q-qbar.png)
 
 # Contact Information
-* Anusha.R Mtech VLSI Design and Embedded Systems, Bangalore. anusha005r@gmail.com
+* Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
 * Kunalghosh Director VSD Corp.Pvt.ltd Kunalghosh@gmail.com
 * PHILIPP GUHRING Software Architect at LibreSilicon Association pg@futureware.at
 * Dr. GAURAV TRIVEDI Co-Principal Investigator,ECIT Academy and Associative Professor, EEE Department, IIT Guwahati trivedi@iitg.ac.in
