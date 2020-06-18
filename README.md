@@ -24,7 +24,7 @@ If you are using ubuntu linux version
  
 #  Getting Started with Windows ESIM
 1. Create `new project` in a Specific directory.
-2. Click on new Schematic
+2. Click on `new Schematic`
 3. Schematic Editor opens
 4. Draw the schematic and save it.
 5. `Annotate` the schematic. 
@@ -39,16 +39,20 @@ If you are using ubuntu linux version
 # Getting Started with Ubuntu Ngspice Simulation
 To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
-## To run Simulation
+### To run Simulation
 Download the files or use `git clone **Paste GitHub link**`
+
 Change the path or directory using `cd/SRAM/Netlist`
 
 To Simulate type :`ngspice Sramcell.cir.out`
+
 Or
+
 Type `ngspice` in terminal
+
 ngspice 1 -> source Sramcell.cir.out
 
-## To View Simulation Plots:
+### To View Simulation Plots:
 ngspice 1 -> plot q qbar
 ngspice 1 -> plot q qbar wl bl blbar
 
