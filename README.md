@@ -34,7 +34,7 @@ If you are using ubuntu linux version
 9. Click on Convert, Kicad to Ngspice conversion will be successfull.
 10. Click on simulation
 11. A ngspice terminal opens up for execution, along with ngspice python plot.
-![](Waveforms/q-qbar.png 400x400)
+![](Waveforms/q-qbar.png 400*400)
 
 # Getting Started with Ubuntu-Linux Ngspice Simulation
 To Install Ngspice, Open terminal and Type 
