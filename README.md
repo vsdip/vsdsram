@@ -23,7 +23,7 @@ If you are using ubuntu linux version
 7. After Installation, to run eSim you can directly run it from terminal by typing `esim`.
  
 #  Getting Started with Windows ESIM
-1. Create `new project` in a Specific directory
+1. Create `new project` in a Specific directory.
 2. Click on `new Schematic`
 3. Schematic Editor opens
 4. Draw the schematic and save it.
@@ -36,7 +36,7 @@ If you are using ubuntu linux version
 11. A ngspice terminal opens up for execution, along with ngspice python plot.
 ![](Waveforms/q-qbar.png)
 
-# Getting Started with Ubuntu Ngspice Simulation
+# Getting Started with Ubuntu-Linux Ngspice Simulation
 To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
 ### To run Simulation
@@ -58,10 +58,13 @@ ngspice 1 -> plot q qbar
 
 ngspice 1 -> plot q qbar wl bl blbar
 
+![](Waveforms/Spice.jpeg)
+
 
 To exit from Ngspice Shell type:
 
 ngspice 1 ->  exit
+
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
 * Kunalghosh Director VSD Corp.Pvt.ltd Kunalghosh@gmail.com
