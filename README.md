@@ -58,7 +58,7 @@ ngspice 1 -> plot q qbar
 
 ngspice 1 -> plot q qbar wl bl blbar
 
-![](Waveforms/Spice.jpeg)
+ ![](Waveforms/Spice.jpeg)
 
 
 To exit from Ngspice Shell type:
