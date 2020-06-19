@@ -23,7 +23,7 @@ If you are using ubuntu linux version
 7. After Installation, to run eSim you can directly run it from terminal by typing `esim`.
  
 #  Getting Started with Windows ESIM
-1. Create `new project` in a Specific directory.
+1. Create `new project` in a Specific directory
 2. Click on `new Schematic`
 3. Schematic Editor opens
 4. Draw the schematic and save it.
