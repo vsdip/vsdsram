@@ -36,6 +36,7 @@ If you are using ubuntu linux version
 11. A ngspice terminal opens up for execution, along with ngspice python plot.
 ![](Waveforms/q-qbar.png)
 
+![](Waveforms/BL-BLBar-WL.PNG)
 # Getting Started with Ubuntu-Linux Ngspice Simulation
 To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
