@@ -56,6 +56,8 @@ To Install Ngspice, Open terminal and Type
 
 ngspice 1 -> plot q qbar
 
+![](Waveforms/Spice-qqbar.jpeg)
+
 ngspice 1 -> plot q qbar wl bl blbar
 
  ![](Waveforms/Spice.jpeg)
