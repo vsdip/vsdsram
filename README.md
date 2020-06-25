@@ -28,16 +28,26 @@ If you are using ubuntu linux version
 3. Schematic Editor opens
 4. Draw the schematic and save it.
 
-### Sramcell
-![](Circuit-Inv/Sramcell.png)
+### Schematic of Sramcell
+![](Circuit-Inv/Sramcell.PNG)
+
+
+### Schematic of Precharge
+![](Circuit-Inv/Precharge.PNG)
+
+
+### Schematic of SenseAmplifier
+![](Circuit-Inv/SenseAmplifier.PNG)
+
 
 5. `Annotate` the schematic. 
 6. Perform `Electrical rules check`, to check errors
-7. Convert schematic into netlist. 
-8. Click on the `kicad conversion` icon for conversion of Kicad to Pspice netlist. Fill up Analysis and Source details, along with     device modelling(`Attach libraries for pmos and nmos`). 
+7. Convert schematic into netlist from the toolbar icon. 
+8. Click on the `kicad conversion` icon on left side of window for conversion of Kicad to ngspice netlist. Choose and Fill up Analysis(transient or Dc) and Source details, along with device modelling(`Attaching libraries for pmos and nmos`). 
 9. Click on Convert, Kicad to Ngspice conversion will be successfull.
-10. Click on simulation
-11. A ngspice terminal opens up for execution, along with ngspice python plot.
+10. Click on simulation icon on left toolbar window.
+11. A ngspice terminal opens up for execution, along with ngspice python/simulation plot.
+12. Choose appropriate nodes and click on plot to view waveforms.
 ![](Waveforms/q-qbar.png)
 
 ![](Waveforms/BL-BLBar-WL.PNG)
