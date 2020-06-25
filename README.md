@@ -3,7 +3,7 @@
 *This Project contains files to develop SRAM on any open source circuit EDA tool*
 ## EDA Tool Installation
 ```html
-If you are using Windows Version
+For Windows
 ```
 1. Download ESIM from this link : https://esim.fossee.in/downloads
 2. After download click on the .exe file;  A window pops up for installation.
@@ -11,7 +11,7 @@ If you are using Windows Version
 4. To run eSim you can directly click on esim icon.
 
 ```html
-If you are using ubuntu linux version
+For ubuntu linux
 ```
 1. Download ESIM for Ubuntu from this link: https://esim.fossee.in/downloads
 2. Open terminal or type `Ctrl+Alt+t` to open command terminal.
@@ -22,7 +22,7 @@ If you are using ubuntu linux version
 6. To install type: `./install-linux.sh --install`
 7. After Installation, to run eSim you can directly run it from terminal by typing `esim`.
  
-#  Getting Started with Windows ESIM
+##  *Getting Started with Windows ESIM*
 1. Create `new project` in a Specific directory.
 2. Click on `new Schematic`
 3. Schematic Editor opens
@@ -51,7 +51,8 @@ If you are using ubuntu linux version
 ![](Waveforms/q-qbar.png)
 
 ![](Waveforms/BL-BLBar-WL.PNG)
-# Getting Started with Ubuntu-Linux Ngspice Simulation
+
+## *Getting Started with Ubuntu-Linux Ngspice Simulation*
 To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
 ### To run Simulation
