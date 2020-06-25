@@ -20,7 +20,7 @@ For ubuntu linux
    Or use command: `unzip filename.zip -d /path/to/directory`; in case if ZIP file is in different directory
 5. Change to eSim folder using cd command.
 6. To install type: `./install-linux.sh --install`
-7. After Installation, to run eSim you can directly run it from terminal by typing `esim`.
+7. To run eSim, you can directly run it from terminal by typing `esim`.
  
 ##  *Getting Started with Windows ESIM*
 1. Create `new project` and save in a Specific directory.
