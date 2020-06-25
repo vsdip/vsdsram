@@ -27,6 +27,10 @@ If you are using ubuntu linux version
 2. Click on `new Schematic`
 3. Schematic Editor opens
 4. Draw the schematic and save it.
+
+### Sramcell
+![](Circuit-Inv/Sramcell.png)
+
 5. `Annotate` the schematic. 
 6. Perform `Electrical rules check`, to check errors
 7. Convert schematic into netlist. 
