@@ -43,11 +43,12 @@ For ubuntu linux
 5. `Annotate` the schematic. 
 6. Perform `Electrical rules check`, to check errors
 7. Convert schematic into netlist from the toolbar icon. 
-8. Click on the `kicad conversion` icon on left side of window for conversion of Kicad to ngspice netlist. Choose and Fill up Analysis(transient or Dc) and Source details, along with device modelling(`Attaching libraries for pmos and nmos`). 
-9. Click on Convert, Kicad to Ngspice conversion will be successfull.
-10. Click on simulation icon on left toolbar window.
-11. A ngspice terminal opens up for execution, along with ngspice python/simulation plot.
-12. Choose appropriate nodes and click on plot to view waveforms.
+8. Click on the `kicad conversion` icon on left side of window for conversion of Kicad to ngspice netlist.
+9. Choose and Fill up Analysis(transient or Dc) and Source details, along with device modelling(`Attaching libraries for pmos and nmos`). 
+10. Click on Convert, Kicad to Ngspice conversion will be successfull.
+11. Click on simulation icon on left toolbar window.
+12. A ngspice terminal opens up for execution, along with ngspice python/simulation plot.
+13. Choose appropriate nodes and click on plot to view waveforms.
 ![](Waveforms/q-qbar.png)
 
 ![](Waveforms/BL-BLBar-WL.PNG)
