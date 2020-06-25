@@ -23,7 +23,7 @@ For ubuntu linux
 7. After Installation, to run eSim you can directly run it from terminal by typing `esim`.
  
 ##  *Getting Started with Windows ESIM*
-1. Create `new project` in a Specific directory.
+1. Create `new project` and save in a Specific directory.
 2. Click on `new Schematic`
 3. Schematic Editor opens
 4. Draw the schematic and save it.
@@ -57,17 +57,17 @@ For ubuntu linux
 To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
 ### To run Simulation
-1. Download the files or use `git clone **Paste GitHub link**`
+1. Download the files or use `git clone https://github.com/Anushar123/SRAM`
 
 2. Change the path or directory using `cd/SRAM/Netlist`
 
-3. To Simulate type :`ngspice Sramcell.cir.out`
+3. To Simulate type :`ngspice Sram.cir.out`
 
    Or
 
    Type `ngspice` in terminal
 
-   ngspice 1 -> source Sramcell.cir.out
+   ngspice 1 -> source Sram.cir.out
 
 ### To View Simulation Plots:
 
