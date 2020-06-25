@@ -1,6 +1,6 @@
 
 # Design Your Own SRAM IP (Static RAM).
-*This Project contains files to develop SRAM on any open source circuit EDA tool.
+*This Project contains files to develop SRAM on any open source circuit EDA tool*
 # Installation of ESIM
 ```html
 If you are using Windows Version
