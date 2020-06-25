@@ -6,9 +6,9 @@
 For Windows
 ```
 1. Download ESIM from this link : https://esim.fossee.in/downloads
-2. After download click on the .exe file;  A window pops up for installation.
+2. Click on the .exe file;  A window pops up for installation.
 3. Follow intructions to complete esim Installation.
-4. To run eSim you can directly click on esim icon.
+4. To run eSim; directly click on esim icon.
 
 ```html
 For ubuntu linux
@@ -28,15 +28,15 @@ For ubuntu linux
 3. Schematic Editor opens
 4. Draw the schematic and save it.
 
-### Schematic of Sramcell
+### *Schematic of Sramcell*
 ![](Circuit-Inv/Sramcell.PNG)
 
 
-### Schematic of Precharge
+### *Schematic of Precharge*
 ![](Circuit-Inv/Precharge.PNG)
 
 
-### Schematic of SenseAmplifier
+### *Schematic of SenseAmplifier*
 ![](Circuit-Inv/SenseAmplifier.PNG)
 
 
