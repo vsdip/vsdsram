@@ -49,9 +49,10 @@ For ubuntu linux
 11. Click on simulation icon on left toolbar window.
 12. A ngspice terminal opens up for execution, along with ngspice python/simulation plot.
 13. Choose appropriate nodes and click on plot to view waveforms.
-![](Waveforms/q-qbar.png)
 
-![](Waveforms/BL-BLBar-WL.PNG)
+![](Waveforms/Esim/QQbar.PNG)
+
+![](Waveforms/Esim/BL.PNG)
 
 ## *Getting Started with Ubuntu-Linux Ngspice Simulation*
 To Install Ngspice, Open terminal and Type 
