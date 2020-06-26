@@ -3,44 +3,45 @@
 .include INVCMOS.sub
 .include NMOS-180nm.lib
 .include PMOS-180nm.lib
-m1 /q /qbar /vdd /vdd CMOSP W=0.9u L=0.18u M=1
-m3 gnd /qbar /q gnd CMOSN W=0.36u L=0.18u M=1
-m5 /vdd /q /qbar /vdd CMOSP W=0.9u L=0.18u M=1
-m4 /qbar /q gnd gnd CMOSN W=0.36u L=0.18u M=1
-m6 /blbar /wl /qbar gnd CMOSN W=0.36u L=0.18u M=1
-m2 /q /wl /bl gnd CMOSN W=0.36u L=0.18u M=1
-* u1  /blbar /qbar /q port
-v1  /wl gnd pulse(1.8v 2.0v 5ns 50ns 3ns 10ns 80us)
-x1 /bl /blbar INVCMOS
-v2 /vdd gnd  dc 1.8v
-v3  /bl gnd pulse(0v 1.8v 10ns 50ns 20ns 40us 80us)
+m1  q  qbar  vdd  vdd CMOSP W=0.9u L=0.18u M=1
+m3 gnd  qbar  q gnd CMOSN W=0.36u L=0.18u M=1
+m5  vdd  q  qbar  vdd CMOSP W=0.9u L=0.18u M=1
+m4  qbar   q gnd gnd CMOSN W=0.36u L=0.18u M=1
+m6  blbar  wl  qbar gnd CMOSN W=0.36u L=0.18u M=1
+m2  q  wl  bl gnd CMOSN W=0.36u L=0.18u M=1
+* u1   blbar  qbar  q port
+v1   wl gnd pulse(1.8v 2.0v 5ns 50ns 3ns 10ns 80us)
+x1  bl  blbar INVCMOS
+v2  vdd gnd  dc 1.8v
+v3   bl gnd pulse(0v 1.8v 10ns 50ns 20ns 40us 80us)
 .dc v3 0e-00 60e-00 10e-00
 
-.SUBCKT precharge 
-m1 vcc /bl gnd vcc CMOSP W=100u L=100u M=1
-m2 vcc /bl gnd vcc CMOSP W=100u L=100u M=1
-* u1  /bl port
+.SUBCKT precharge
+m1 vcc  bl gnd vcc CMOSP W=0.9u L=0.18u M=1
+m2 vcc  bl gnd vcc CMOSP W=0.9u L=0.18u M=1
+* u1   bl port
 .ends
 
 .SUBCKT senseamp
-m2 net-_m1-pad1_ net-_m1-pad1_ vcc vcc CMOSP W=100u L=100u M=1
-m4 vcc net-_m1-pad1_ net-_m4-pad3_ vcc CMOSP W=100u L=100u M=1
-m7 vcc net-_m4-pad3_ net-_m6-pad1_ vcc CMOSP W=100u L=100u M=1
-m9 vcc net-_m6-pad1_ net-_m8-pad1_ vcc CMOSP W=100u L=100u M=1
+m2 net-_m1-pad1_ net-_m1-pad1_ vcc vcc CMOSP W=0.9u L=0.18u M=1
+m4 vcc net-_m1-pad1_ net-_m4-pad3_ vcc CMOSP W=0.9u L=0.18u M=1
+m7 vcc net-_m4-pad3_ net-_m6-pad1_ vcc CMOSP W=0.9u L=0.18u M=1
+m9 vcc net-_m6-pad1_ net-_m8-pad1_ vcc CMOSP W=0.9u L=0.18u M=1
 m8 net-_m8-pad1_ net-_m6-pad1_ gnd gnd CMOSN W=0.36u L=0.18u M=1
-m6 net-_m6-pad1_ net-_m4-pad3_ gnd gnd CMOSN W=100u L=100u M=1
-m5 net-_m1-pad3_ /blbar net-_m4-pad3_ gnd CMOSN W=100u L=100u M=1
-m1 net-_m1-pad1_ /bl net-_m1-pad3_ gnd CMOSN W=100u L=100u M=1
-m3 net-_m1-pad3_ vcc gnd gnd CMOSN W=100u L=100u M=1
-* u1  /bl /blbar net-_m8-pad1_ port
+m6 net-_m6-pad1_ net-_m4-pad3_ gnd gnd CMOSN W=0.36u L=0.18u M=1
+m5 net-_m1-pad3_  blbar net-_m4-pad3_ gnd CMOSN W=0.36u L=0.18u M=1
+m1 net-_m1-pad1_  bl net-_m1-pad3_ gnd CMOSN W=0.36u L=0.18u M=1
+m3 net-_m1-pad3_ vcc gnd gnd CMOSN W=0.36u L=0.18u M=1
+* u1   bl  blbar net-_m8-pad1_ port
 *.tran 10e-12 1e-09 oe-00 UIC
 .IC V(1)=0
 .ends
 
-* Control Statements 
+* Control Statements
 .control
 run
 print allv > plot_data_v.txt
 print alli > plot_data_i.txt
 .endc
 .end
+
