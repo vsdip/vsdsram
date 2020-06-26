@@ -72,15 +72,31 @@ To Install Ngspice, Open terminal and Type
 
 ### To View Simulation Plots:
 
+ngspice 1 -> plot q
+
+![](Waveforms/Spice/Q.jpeg)
+
+ngspice 1 -> plot qbar
+
+ ![](Waveforms/Spice/Qbar.jpeg)
+
 ngspice 1 -> plot q qbar
 
-![](Waveforms/Spice-qqbar.jpeg)
+ ![](Waveforms/Spice/QQbar.jpeg)
+ 
+*To simulate transient Analysis*
+ 
+To Simulate type :`ngspice Sramtran.cir.out`
 
-ngspice 1 -> plot q qbar wl bl blbar
+ngspice 1 -> plot bl
 
- ![](Waveforms/Spice.jpeg)
+![](Waveforms/Spice/BL.jpeg)
 
+ngspice 1 -> blbar
 
+ ![](Waveforms/Spice/BLbar.jpeg)
+
+ 
 To exit from Ngspice Shell type:
 
 ngspice 1 ->  exit
