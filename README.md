@@ -29,7 +29,7 @@ For ubuntu linux
 4. Draw the schematic and save it.
 
 ### *Schematic of Sramcell*
-![](Circuit-Inv/Sramcell.PNG)
+![](Circuit-Inv/Circuit.PNG)
 
 
 ### *Schematic of Precharge*
