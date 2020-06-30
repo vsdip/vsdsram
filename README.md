@@ -29,7 +29,7 @@ For ubuntu linux
 4. Draw the schematic and save it.
 
 ### *Schematic of Sramcell*
-![](Circuit-Inv/Circuit.PNG)
+![](Circuit-Inv/Sram.PNG)
 
 
 ### *Schematic of Precharge*
@@ -50,9 +50,20 @@ For ubuntu linux
 12. A ngspice terminal opens up for execution, along with ngspice python/simulation plot.
 13. Choose appropriate nodes and click on plot to view waveforms.
 
+![](Waveforms/Esim/Q.PNG)
+
+![](Waveforms/Esim/Qbar.PNG)
+
 ![](Waveforms/Esim/QQbar.PNG)
 
 ![](Waveforms/Esim/BL.PNG)
+
+![](Waveforms/Esim/BLbar.PNG)
+
+![](Waveforms/Esim/BLBLbar.PNG)
+
+![](Waveforms/Esim/BL-Q(Butterfly).PNG)
+
 
 ## *Getting Started with Ubuntu-Linux Ngspice Simulation*
 To Install Ngspice, Open terminal and Type 
