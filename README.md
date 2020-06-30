@@ -85,7 +85,7 @@ To Install Ngspice, Open terminal and Type
 
 ngspice 1 -> plot q
 
-![](Waveforms/Ngpice/Q.PNG)
+![](Waveforms/Ngspice/Q.PNG)
 
 ngspice 1 -> plot qbar
 
@@ -110,7 +110,7 @@ ngspice 1 -> plot q qbar
  
 *To simulate dc Analysis*
  
-To Simulate type :`ngspice sramdc.cir.out`
+Type :`ngspice sramdc.cir.out`
 
 ngspice 1 -> plot bl q
 
