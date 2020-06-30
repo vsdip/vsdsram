@@ -73,7 +73,7 @@ To Install Ngspice, Open terminal and Type
 
 2. Change the path or directory using `cd/SRAM/Netlist`
 
-3. To Simulate type :`ngspice Sram.cir.out`
+3. *To simulate transient Analysis* type :`ngspice Sram.cir.out`
 
    Or
 
@@ -85,27 +85,36 @@ To Install Ngspice, Open terminal and Type
 
 ngspice 1 -> plot q
 
-![](Waveforms/Spice/Q.jpeg)
+![](Waveforms/Ngpice/Q.PNG)
 
 ngspice 1 -> plot qbar
 
- ![](Waveforms/Spice/Qbar.jpeg)
+ ![](Waveforms/Ngspice/Qbar.PNG)
 
 ngspice 1 -> plot q qbar
 
- ![](Waveforms/Spice/QQbar.jpeg)
+ ![](Waveforms/Ngspice/Q-Qbar.PNG)
  
-*To simulate transient Analysis*
+ ngspice 1 -> plot bl
+
+ ![](Waveforms/Ngspice/BL.PNG)
  
-To Simulate type :`ngspice Sramtran.cir.out`
+ ngspice 1 -> plot blbar
 
-ngspice 1 -> plot bl
+ ![](Waveforms/Ngspice/BLbar.PNG)
+ 
+ ngspice 1 -> plot bl blbar
 
-![](Waveforms/Spice/BL.jpeg)
+ ![](Waveforms/Ngspice/BL-BLbar.PNG)
+ 
+ 
+*To simulate dc Analysis*
+ 
+To Simulate type :`ngspice sramdc.cir.out`
 
-ngspice 1 -> blbar
+ngspice 1 -> plot bl q
 
- ![](Waveforms/Spice/BLbar.jpeg)
+![](Waveforms/Ngspice/BL-Q(Butterfly).PNG)
 
  
 To exit from Ngspice Shell type:
