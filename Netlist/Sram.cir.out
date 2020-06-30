@@ -9,11 +9,12 @@ m4  qbar   q gnd gnd CMOSN W=0.36u L=0.18u M=1
 m6  blbar  wl  qbar gnd CMOSN W=0.36u L=0.18u M=1
 m2  q  wl  bl gnd CMOSN W=0.36u L=0.18u M=1
 * u1   blbar  qbar  q port
-v1   wl gnd pulse(1.8v 2.0v 5ns 50ns 3ns 10ns 80us)
-v2  vdd gnd  dc 1.8v
 v3   bl gnd pulse(0v 1.8v 10ns 50ns 20ns 40us 80us)
 m8  blbar  bl  vdd  vdd CMOSP W=0.9u L=0.18u M=1
 m7  blbar  bl gnd gnd CMOSN W=0.36u L=0.18u M=1
+v1   wl gnd pulse(1.8v 2.0v 5ns 50ns 3ns 10ns 80us)
+c1   q gnd capacitor
+v2  vdd gnd  dc 1.8v
 .tran 10e-09 100e-09 3e-09
 
 .SUBCKT precharge
