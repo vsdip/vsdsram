@@ -1,0 +1,202 @@
+magic
+tech scmos
+timestamp 1593857947
+<< nwell >>
+rect -52 -11 -24 8
+rect -14 -11 15 8
+rect 30 -49 56 -33
+<< polysilicon >>
+rect -65 -21 -63 17
+rect -38 1 -36 4
+rect -1 1 1 4
+rect -38 -23 -36 -5
+rect -1 -15 1 -5
+rect -19 -17 1 -15
+rect -1 -22 1 -17
+rect 28 -19 30 17
+rect -38 -25 -22 -23
+rect -65 -29 -63 -27
+rect -38 -33 -36 -25
+rect -1 -33 1 -26
+rect 28 -27 30 -25
+rect 42 -37 44 -35
+rect -38 -42 -36 -39
+rect -1 -41 1 -39
+rect 42 -54 44 -43
+rect 29 -56 44 -54
+rect 42 -62 44 -56
+rect 42 -71 44 -68
+<< ndiffusion >>
+rect -72 -22 -65 -21
+rect -72 -26 -71 -22
+rect -67 -26 -65 -22
+rect -72 -27 -65 -26
+rect -63 -22 -56 -21
+rect -63 -26 -61 -22
+rect -57 -26 -56 -22
+rect -63 -27 -56 -26
+rect 21 -20 28 -19
+rect 21 -24 22 -20
+rect 26 -24 28 -20
+rect 21 -25 28 -24
+rect 30 -20 37 -19
+rect 30 -24 32 -20
+rect 36 -24 37 -20
+rect 30 -25 37 -24
+rect -45 -34 -38 -33
+rect -45 -38 -44 -34
+rect -40 -38 -38 -34
+rect -45 -39 -38 -38
+rect -36 -34 -28 -33
+rect -36 -38 -34 -34
+rect -30 -38 -28 -34
+rect -36 -39 -28 -38
+rect -8 -34 -1 -33
+rect -8 -38 -7 -34
+rect -3 -38 -1 -34
+rect -8 -39 -1 -38
+rect 1 -34 8 -33
+rect 1 -38 3 -34
+rect 7 -38 8 -34
+rect 1 -39 8 -38
+rect 35 -63 42 -62
+rect 35 -67 37 -63
+rect 41 -67 42 -63
+rect 35 -68 42 -67
+rect 44 -63 51 -62
+rect 44 -67 45 -63
+rect 49 -67 51 -63
+rect 44 -68 51 -67
+<< pdiffusion >>
+rect -45 0 -38 1
+rect -45 -4 -44 0
+rect -40 -4 -38 0
+rect -45 -5 -38 -4
+rect -36 0 -29 1
+rect -36 -4 -34 0
+rect -30 -4 -29 0
+rect -36 -5 -29 -4
+rect -8 0 -1 1
+rect -8 -4 -7 0
+rect -3 -4 -1 0
+rect -8 -5 -1 -4
+rect 1 0 8 1
+rect 1 -4 3 0
+rect 7 -4 8 0
+rect 1 -5 8 -4
+rect 35 -38 42 -37
+rect 35 -42 37 -38
+rect 41 -42 42 -38
+rect 35 -43 42 -42
+rect 44 -38 51 -37
+rect 44 -42 45 -38
+rect 49 -42 51 -38
+rect 44 -43 51 -42
+<< metal1 >>
+rect -69 17 -66 21
+rect -62 17 27 21
+rect 31 17 35 21
+rect -52 10 -50 14
+rect -46 10 -38 14
+rect -34 10 -29 14
+rect -25 10 -13 14
+rect -9 10 -2 14
+rect 2 10 7 14
+rect 11 10 50 14
+rect -44 0 -40 10
+rect -7 0 -3 10
+rect -34 -14 -30 -4
+rect -34 -18 -23 -14
+rect -34 -22 -30 -18
+rect 3 -20 7 -4
+rect 46 -20 50 10
+rect 3 -22 22 -20
+rect -57 -26 -30 -22
+rect -18 -24 22 -22
+rect 36 -24 63 -20
+rect -18 -26 7 -24
+rect -71 -62 -67 -26
+rect -34 -34 -30 -26
+rect 3 -34 7 -26
+rect 46 -27 50 -24
+rect 37 -31 50 -27
+rect 37 -38 41 -31
+rect -44 -51 -40 -38
+rect -7 -51 -3 -38
+rect -52 -55 -51 -51
+rect -47 -55 -38 -51
+rect -34 -55 -29 -51
+rect -25 -55 -13 -51
+rect -9 -55 -1 -51
+rect 3 -55 8 -51
+rect 12 -55 15 -51
+rect 45 -53 49 -42
+rect 59 -53 63 -24
+rect 4 -62 8 -55
+rect 25 -62 29 -58
+rect -71 -66 29 -62
+rect 45 -57 63 -53
+rect 45 -63 49 -57
+rect 4 -73 8 -66
+rect 37 -73 41 -67
+rect 4 -77 41 -73
+<< ntransistor >>
+rect -65 -27 -63 -21
+rect 28 -25 30 -19
+rect -38 -39 -36 -33
+rect -1 -39 1 -33
+rect 42 -68 44 -62
+<< ptransistor >>
+rect -38 -5 -36 1
+rect -1 -5 1 1
+rect 42 -43 44 -37
+<< polycontact >>
+rect -66 17 -62 21
+rect 27 17 31 21
+rect -23 -18 -19 -14
+rect -22 -26 -18 -22
+rect 25 -58 29 -54
+<< ndcontact >>
+rect -71 -26 -67 -22
+rect -61 -26 -57 -22
+rect 22 -24 26 -20
+rect 32 -24 36 -20
+rect -44 -38 -40 -34
+rect -34 -38 -30 -34
+rect -7 -38 -3 -34
+rect 3 -38 7 -34
+rect 37 -67 41 -63
+rect 45 -67 49 -63
+<< pdcontact >>
+rect -44 -4 -40 0
+rect -34 -4 -30 0
+rect -7 -4 -3 0
+rect 3 -4 7 0
+rect 37 -42 41 -38
+rect 45 -42 49 -38
+<< psubstratepcontact >>
+rect -51 -55 -47 -51
+rect -38 -55 -34 -51
+rect -29 -55 -25 -51
+rect -13 -55 -9 -51
+rect -1 -55 3 -51
+rect 8 -55 12 -51
+<< nsubstratencontact >>
+rect -50 10 -46 14
+rect -38 10 -34 14
+rect -29 10 -25 14
+rect -13 10 -9 14
+rect -2 10 2 14
+rect 7 10 11 14
+<< labels >>
+rlabel metal1 -60 17 -54 21 5 WL
+rlabel metal1 18 17 23 21 5 WL
+rlabel metal1 -23 10 -16 14 1 Vdd
+rlabel metal1 -23 -55 -17 -51 1 gnd
+rlabel metal1 -71 -52 -67 -44 3 BL
+rlabel metal1 13 -66 15 -62 1 BL
+rlabel metal1 52 -57 55 -53 1 BLbar
+rlabel metal1 39 -24 41 -20 1 BLbar
+rlabel metal1 -51 -26 -48 -22 1 Q
+rlabel metal1 11 -24 14 -20 1 Qbar
+<< end >>
