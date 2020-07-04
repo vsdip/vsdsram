@@ -121,6 +121,10 @@ To exit from Ngspice Shell type:
 
 ngspice 1 ->  exit
 
+## *Getting Started with Magic Layout*
+
+![](Circuit-Inv/Sram.PNG) ![](Layout/Sram.jpeg)
+
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
 * Kunalghosh Director VSD Corp.Pvt.ltd Kunalghosh@gmail.com
