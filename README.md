@@ -123,7 +123,13 @@ ngspice 1 ->  exit
 
 ## *Getting Started with Magic Layout*
 
-![](Circuit-Inv/Sram.PNG) ![](Layout/Sram.jpeg)
+![](Circuit-Inv/Sram.PNG) 
+
+![](Layout/Sram.PNG)
+
+![](Layout/Sram-Width,height.PNG) 
+
+
 
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
