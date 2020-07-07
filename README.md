@@ -130,6 +130,18 @@ ngspice 1 ->  exit
 ![](Layout/Sram-Width,height.PNG) 
 
 
+![](Circuit-Inv/Precharge.PNG) 
+
+![](Layout/Precharge.PNG)
+
+![](Layout/Precharge-width,height.PNG) 
+
+
+![](Circuit-Inv/SenseAmplifier.PNG) 
+
+![](Layout/senseamplifier.PNG)
+
+![](Layout/senseamplifier-width,height.PNG)
 
 # Contact Information
 * Anusha.R Mtech (VLSI Design and Embedded Systems), Bangalore. anusha005r@gmail.com
