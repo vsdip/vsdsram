@@ -1,14 +1,36 @@
 
-# Design Your Own SRAM IP.
+# avsdSRAM
 *This Project contains files to develop SRAM on any open source circuit EDA tool*
-## EDA Tool Installation
+
+The Size of SRAM is 32kbit/4k Bytes.
+
+## Symbol and Pin Descriptions
+
+
+## Upcoming Future Works
+
+
+
+## IP USAGE
+
+The user of this IP has to install `Ngspice` for Circuit simulation and `Magic` for Layout.
+
+## Getting Started with NGspice: An open Source Circuit Simulator
+
 ```html
-For Windows
+For ubuntu linux
 ```
-1. Download ESIM from this link : https://esim.fossee.in/downloads
-2. Click on the .exe file;  A window pops up for installation.
-3. Follow intructions to complete esim Installation.
-4. To run eSim; directly click on esim icon.
+To Install Ngspice, Open terminal and Type 
+`sudo apt-get install -y ngspice`
+
+### To run Simulation
+```html
+Clone the repository using `git clone https://github.com/Anushar123/SRAM`
+```
+1. Download the files or use `git clone https://github.com/Anushar123/SRAM`
+
+2. Change the path or directory using `cd/SRAM/Netlist`
+
 
 ```html
 For ubuntu linux
