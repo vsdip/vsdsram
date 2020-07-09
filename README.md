@@ -88,6 +88,29 @@ ngspice 1 ->  exit
 
 ## *Getting Started with Magic Layout*
 
+Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl.Nagic has remained popular with universities and small companies.
+
+For ubuntu linux:
+1. Downlaod tgz file from this link http://opencircuitdesign.com/magic/
+
+```html
+cd Downloads/
+tar xzf magic-7.5.232.tgz
+cd magic-7.5.232/
+sudo apt-get install m4
+sudo apt-get install tcl-dev
+sudo apt-get install tk-dev
+sudo apt-get install blt
+sudo apt-get install freeglut3
+sudo apt-get install libglut3
+sudo apt-get install libgl1-mesa-dev
+sudo apt-get install libglu1-mesa-dev
+./configure
+sudo apt-get install csh
+sudo make
+sudo make install
+```
+
 ![](Circuit-Inv/Sram.PNG) 
 
 ![](Layout/Sram.PNG)
