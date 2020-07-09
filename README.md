@@ -110,17 +110,21 @@ sudo apt-get install csh
 sudo make
 sudo make install
 ```
-or 
+OR
 
 Install Qflow from this link : http://opencircuitdesign.com/qflow/ 
+
 It will install all necessary open source tools including magic.
 
-### To View Magic
+### To View Magic Layouts
 
-1.Open the repository and cahnge directory to `cd/Layout`
+1.Open the repository and change directory to `cd/Layout`
+
 2. To view the layout, type on terminal : `magic sram6.mag` or `magic -T SCN6M_SUBM.10.tech sram6.mag`
+
 3. Similarly for precharge and senseamplifier: `magic precharge6.mag` & `magic senseamplifier6.mag`
 3. To extract the spice netlist : Go to Tkcon window and type these commands.
+
 `extract all`
 `ext2spice rthresh 0 cthresh 0` **To include Parasitics in spice netlist** 
 `ext2spice`
