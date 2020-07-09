@@ -17,21 +17,22 @@ The Circuit design of 6T SRAM alongwith Precharge, Sense amplifier is designed s
 
 The user of this IP has to install `Ngspice` for Circuit simulation and `Magic` for Layout.
 
-## Getting Started with NGspice: An open Source Circuit Simulator
+## Getting Started with `NGspice`: An open Source Circuit Simulator
 
-```html
-For ubuntu linux; To Install Ngspice, Open terminal and Type 
-```
+For ubuntu linux 
+To Install Ngspice, Open terminal and Type 
+
 `sudo apt-get install -y ngspice`
 
-### To run Simulation
-```html
-Clone the repository using `git clone https://github.com/Anushar123/SRAM`
-```
-1. Download the files or use `git clone https://github.com/Anushar123/SRAM`
+### To Clone the IP Repository
+
+1. Download the Zip file or use `git clone https://github.com/Anushar123/SRAM`
 
 2. Change the path or directory using `cd/SRAM/Netlist`
 
+### To run PreLayout Simulations
+
+1. Change the path or directory using `cd/SRAM/Circuit-INV` to view the circuit.
 
 ### *Schematic of Sramcell*
 ![](Circuit-Inv/Sram.PNG)
@@ -45,29 +46,7 @@ Clone the repository using `git clone https://github.com/Anushar123/SRAM`
 ![](Circuit-Inv/SenseAmplifier.PNG)
 
 
-5. `Annotate` the schematic. 
-6. Perform `Electrical rules check`, to check errors
-7. Convert schematic into netlist from the toolbar icon. 
-8. Click on the `kicad conversion` icon on left side of window for conversion of Kicad to ngspice netlist.
-9. Choose and Fill up Analysis(transient or Dc) and Source details, along with device modelling(`Attaching libraries for pmos and nmos`). 
-10. Click on Convert, Kicad to Ngspice conversion will be successfull.
-11. Click on simulation icon on left toolbar window.
-12. A ngspice terminal opens up for execution, along with ngspice python/simulation plot.
-13. Choose appropriate nodes and click on plot to view waveforms.
 
-![](Waveforms/Esim/Q.PNG)
-
-![](Waveforms/Esim/Qbar.PNG)
-
-![](Waveforms/Esim/QQbar.PNG)
-
-![](Waveforms/Esim/BL.PNG)
-
-![](Waveforms/Esim/BLbar.PNG)
-
-![](Waveforms/Esim/BLBLbar.PNG)
-
-![](Waveforms/Esim/BL-Q(Butterfly).PNG)
 
 
 ## *Getting Started with Ubuntu-Linux Ngspice Simulation*
