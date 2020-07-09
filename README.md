@@ -6,7 +6,7 @@ Static RAM is a type of random-access memory that uses latching circuitry (flip-
 
 The Size of SRAM Specs is 32kbit/4k Bytes with 1.8v. 
 
-The Design Specifications of mem4kBytesOr32kbits can be found [here](https://www.vlsisystemdesign.com/ip/).
+To view Design Specifications of mem4kBytesOr32kbits, check [this](https://www.vlsisystemdesign.com/ip/).
 
 ## Block Symbol and pins
 
