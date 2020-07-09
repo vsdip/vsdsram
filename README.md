@@ -112,9 +112,16 @@ sudo make install
 ```
 Or
 
-Install Qflow from this link : http://opencircuitdesign.com/qflow/ 
+Install Qflow & It will install all necessary open source tools including magic.
 
-It will install all necessary open source tools including magic.
+```html
+Download qflow from this link : http://opencircuitdesign.com/qflow/
+cd Downloads/
+tar xzf qflow-1.4.83.tgz
+sudo apt-get update
+sudo apt-get install qflow
+```
+
 
 ### To View Magic Layouts
 
