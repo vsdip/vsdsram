@@ -152,8 +152,9 @@ It will install all necessary open source tools including magic.
 
 ![](Layout/senseamplifier-width,height.PNG)
 
-## 
+
 Note: IP is yet under process and yet to release as a final view. 
+
 But incase if any difficulties with respect to IP Usage so far, contact the administrator or report as github Issue
 
 ## Author
