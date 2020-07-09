@@ -31,17 +31,6 @@ To Install Ngspice, Open terminal and Type
 
 2. Change the path or directory using `cd/SRAM/Circuit-INV` to view the circuit.
 
-### *Schematic of Sramcell*
-![](Circuit-Inv/Sram.PNG)
-
-
-### *Schematic of Precharge*
-![](Circuit-Inv/Precharge.PNG)
-
-
-### *Schematic of SenseAmplifier*
-![](Circuit-Inv/SenseAmplifier.PNG)
-
 3. Change the path or directory using `cd/SRAM/Netlist` to run the simulation.
 
 ### To run PreLayout Simulations
