@@ -95,7 +95,7 @@ Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John
 
 *For ubuntu linux*
 
-Download tgz file from this [link](http://opencircuitdesign.com/magic/)
+Download Magic from this [link](http://opencircuitdesign.com/magic/)
 
 
 ```html
