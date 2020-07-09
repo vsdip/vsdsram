@@ -88,7 +88,7 @@ ngspice 1 ->  exit
 
 ## Getting Started with Magic Layout
 
-Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl.Nagic has remained popular with universities and small companies.
+Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Magic has remained popular with universities and small companies.
 
 *For ubuntu linux*
 
