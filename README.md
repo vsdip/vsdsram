@@ -125,7 +125,7 @@ sudo apt-get install qflow
 
 ### To View Magic Layouts
 
-1.Open the repository and change directory to `cd/Layout`
+1. Open the repository and change directory to `cd/Layout`
 
 2. To view the layout, type on terminal : `magic sram6.mag` or `magic -T SCN6M_SUBM.10.tech sram6.mag`
 
