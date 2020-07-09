@@ -108,7 +108,7 @@ ngspice 1 ->  exit
 
 ![](Layout/senseamplifier-width,height.PNG)
 
-### Author
+## Author
 Anusha R
 
 # Contact Information
