@@ -1,5 +1,5 @@
 
-# avsdSRAM
+# avsdSram
 ### An SRAM IP Uniquely designed with open source tools.
 
 Static RAM is a type of random-access memory that uses latching circuitry (flip-flop) to store each bit.
@@ -17,9 +17,10 @@ The Circuit design of 6T SRAM alongwith Precharge, Sense amplifier is designed s
 
 The user of this IP has to install `Ngspice` for Circuit simulation and `Magic` for Layout.
 
-## Getting Started with `NGspice`: An open Source Circuit Simulator
+## Getting Started with NGspice: An open Source Circuit Simulator
 
-For ubuntu linux 
+For ubuntu linux: 
+
 To Install Ngspice, Open terminal and Type 
 
 `sudo apt-get install -y ngspice`
@@ -28,11 +29,7 @@ To Install Ngspice, Open terminal and Type
 
 1. Download the Zip file or use `git clone https://github.com/Anushar123/SRAM`
 
-2. Change the path or directory using `cd/SRAM/Netlist`
-
-### To run PreLayout Simulations
-
-1. Change the path or directory using `cd/SRAM/Circuit-INV` to view the circuit.
+2. Change the path or directory using `cd/SRAM/Circuit-INV` to view the circuit.
 
 ### *Schematic of Sramcell*
 ![](Circuit-Inv/Sram.PNG)
@@ -45,17 +42,11 @@ To Install Ngspice, Open terminal and Type
 ### *Schematic of SenseAmplifier*
 ![](Circuit-Inv/SenseAmplifier.PNG)
 
+3. Change the path or directory using `cd/SRAM/Netlist` to run the simulation.
 
+### To run PreLayout Simulations
 
-
-
-## *Getting Started with Ubuntu-Linux Ngspice Simulation*
-To Install Ngspice, Open terminal and Type 
-`sudo apt-get install -y ngspice`
-### To run Simulation
-1. Download the files or use `git clone https://github.com/Anushar123/SRAM`
-
-2. Change the path or directory using `cd/SRAM/Netlist`
+1. Go to the path or directory using `cd/SRAM/Netlist`
 
 3. *To simulate transient Analysis* type :`ngspice Sram.cir.out`
 
