@@ -90,10 +90,12 @@ ngspice 1 ->  exit
 
 Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Magic has remained popular with universities and small companies.
 
+[link] (http://opencircuitdesign.com/magic/)
+
 *For ubuntu linux*
 
 ```html
-Downlaod tgz file from this link http://opencircuitdesign.com/magic/
+Downlaod tgz file from this [link] (http://opencircuitdesign.com/magic/)
 cd Downloads/
 tar xzf magic-7.5.232.tgz
 cd magic-7.5.232/
