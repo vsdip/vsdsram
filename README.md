@@ -1,9 +1,9 @@
 
 # avsdSRAM
-## An SRAM IP Uniquely designed with open source tools.
+### An SRAM IP Uniquely designed with open source tools.
 
-
-Static RAM is a type of random-access memory that uses latching circuitry (flip-flop) to store each bit. The Size of SRAM Specs is 32kbit/4k Bytes with 1.8v. 
+Static RAM is a type of random-access memory that uses latching circuitry (flip-flop) to store each bit.
+The Size of SRAM Specs is 32kbit/4k Bytes with 1.8v. 
 
 ## Symbol and Pin Descriptions
 
@@ -20,9 +20,8 @@ The user of this IP has to install `Ngspice` for Circuit simulation and `Magic` 
 ## Getting Started with NGspice: An open Source Circuit Simulator
 
 ```html
-For ubuntu linux
+For ubuntu linux; To Install Ngspice, Open terminal and Type 
 ```
-To Install Ngspice, Open terminal and Type 
 `sudo apt-get install -y ngspice`
 
 ### To run Simulation
@@ -33,24 +32,6 @@ Clone the repository using `git clone https://github.com/Anushar123/SRAM`
 
 2. Change the path or directory using `cd/SRAM/Netlist`
 
-
-```html
-For ubuntu linux
-```
-1. Download ESIM for Ubuntu from this link: https://esim.fossee.in/downloads
-2. Open terminal or type `Ctrl+Alt+t` to open command terminal.
-3. Change the directory using cd command followed by path to zip file.
-4. Unzip the zip file using command: `unzip -q filename.zip` 
-   Or use command: `unzip filename.zip -d /path/to/directory`; in case if ZIP file is in different directory
-5. Change to eSim folder using cd command.
-6. To install type: `./install-linux.sh --install`
-7. To run eSim, you can directly run it from terminal by typing `esim`.
- 
-##  *Getting Started with Windows ESIM*
-1. Create `new project` and save in a Specific directory.
-2. Click on `new Schematic`
-3. Schematic Editor opens
-4. Draw the schematic and save it.
 
 ### *Schematic of Sramcell*
 ![](Circuit-Inv/Sram.PNG)
