@@ -93,12 +93,12 @@ ngspice 1 ->  exit
 
 Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Magic has remained popular with universities and small companies.
 
-[link](http://opencircuitdesign.com/magic/)
+Download tgz file from this [link](http://opencircuitdesign.com/magic/)
 
 *For ubuntu linux*
 
 ```html
-Downlaod tgz file from this [link] (http://opencircuitdesign.com/magic/)
+Open Terminal and type below commands. 
 cd Downloads/
 tar xzf magic-7.5.232.tgz
 cd magic-7.5.232/
@@ -119,8 +119,10 @@ Or
 
 Install Qflow & It will install all necessary open source tools including magic.
 
+Download qflow from this [link](http://opencircuitdesign.com/qflow/)
+
 ```html
-Download qflow from this link : http://opencircuitdesign.com/qflow/
+Open Terminal and type below commands. 
 cd Downloads/
 tar xzf qflow-1.4.83.tgz
 sudo apt-get update
