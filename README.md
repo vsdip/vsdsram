@@ -6,7 +6,7 @@ The Size of SRAM is 32kbit/4k Bytes.
 
 ## Symbol and Pin Descriptions
 
-![](Circuit-Inv/SingleBit SRAM.png)
+![](Circuit-Inv/SingleBitSRAM.png)
 
 ## Upcoming Future Works
 
