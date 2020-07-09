@@ -20,7 +20,7 @@ The user of this IP has to install `Ngspice` for Circuit simulation and `Magic` 
 
 ## Getting Started with NGspice: An open Source Circuit Simulator
 
-For ubuntu linux: 
+*For ubuntu linux*
 
 To Install Ngspice, Open terminal and Type 
 
@@ -86,11 +86,11 @@ To exit from Ngspice Shell type:
 
 ngspice 1 ->  exit
 
-## *Getting Started with Magic Layout*
+## Getting Started with Magic Layout
 
 Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl.Nagic has remained popular with universities and small companies.
 
-For ubuntu linux:
+*For ubuntu linux*
 
 ```html
 Downlaod tgz file from this link http://opencircuitdesign.com/magic/
@@ -110,7 +110,7 @@ sudo apt-get install csh
 sudo make
 sudo make install
 ```
-OR
+Or
 
 Install Qflow from this link : http://opencircuitdesign.com/qflow/ 
 
@@ -123,10 +123,13 @@ It will install all necessary open source tools including magic.
 2. To view the layout, type on terminal : `magic sram6.mag` or `magic -T SCN6M_SUBM.10.tech sram6.mag`
 
 3. Similarly for precharge and senseamplifier: `magic precharge6.mag` & `magic senseamplifier6.mag`
+
 3. To extract the spice netlist : Go to Tkcon window and type these commands.
 
 `extract all`
+
 `ext2spice rthresh 0 cthresh 0` **To include Parasitics in spice netlist** 
+
 `ext2spice`
 
 ![](Circuit-Inv/Sram.PNG) 
