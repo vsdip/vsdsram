@@ -1,8 +1,8 @@
 
-# avsdSRAM
-*This Project contains files to develop SRAM on any open source circuit EDA tool*
+# avsdSRAM :A SRAM IP Uniquely designed with open source tools.
 
-The Size of SRAM is 32kbit/4k Bytes.
+
+Static RAM is a type of random-access memory that uses latching circuitry (flip-flop) to store each bit. The Size of SRAM Specs is 32kbit/4k Bytes with 1.8v. 
 
 ## Symbol and Pin Descriptions
 
@@ -10,7 +10,7 @@ The Size of SRAM is 32kbit/4k Bytes.
 
 ## Upcoming Future Works
 
-
+The Circuit design of 6T SRAM alongwith Precharge, Sense amplifier is designed solely in opensouce tool and its characterstics is analyzed. As a post layout stage, the design's layout is drawn and spice netlist is extracted. As a part of upcoming work the next step is post layout simulation, verifying it with pre layout. The32kbit and PnR (Place and Route) flow and lastly GDS to be released.
 
 ## IP USAGE
 
