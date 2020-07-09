@@ -90,7 +90,7 @@ ngspice 1 ->  exit
 
 Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Magic has remained popular with universities and small companies.
 
-[link] (http://opencircuitdesign.com/magic/)
+[link](http://opencircuitdesign.com/magic/)
 
 *For ubuntu linux*
 
