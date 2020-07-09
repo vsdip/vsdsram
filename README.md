@@ -50,27 +50,27 @@ To Install Ngspice, Open terminal and Type
 
 ngspice 1 -> plot q
 
-![](Waveforms/Ngspice/Q.PNG)
+![](Waveforms/Ngspice/Spice/Q.PNG)
 
 ngspice 1 -> plot qbar
 
- ![](Waveforms/Ngspice/Qbar.PNG)
+ ![](Waveforms/Ngspice/Spice/Qbar.PNG)
 
 ngspice 1 -> plot q qbar
 
- ![](Waveforms/Ngspice/Q-Qbar.PNG)
+ ![](Waveforms/Ngspice/Spice/Q-Qbar.PNG)
  
  ngspice 1 -> plot bl
 
- ![](Waveforms/Ngspice/BL.PNG)
+ ![](Waveforms/Ngspice/Spice/BL.PNG)
  
  ngspice 1 -> plot blbar
 
- ![](Waveforms/Ngspice/BLbar.PNG)
+ ![](Waveforms/Ngspice/Spice/BLbar.PNG)
  
  ngspice 1 -> plot bl blbar
 
- ![](Waveforms/Ngspice/BL-BLbar.PNG)
+ ![](Waveforms/Ngspice/Spice/BL-Blbar.PNG)
  
  
 *To simulate dc Analysis*
@@ -79,7 +79,7 @@ Type :`ngspice sramdc.cir.out`
 
 ngspice 1 -> plot bl q
 
-![](Waveforms/Ngspice/BL-Q(Butterfly).PNG)
+![](Waveforms/Ngspice/Spice/Butterfly.PNG)
 
  
 To exit from Ngspice Shell type:
