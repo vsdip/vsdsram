@@ -1,5 +1,5 @@
 
-# avsdmem4kBytesOr32kbits
+# vsdsram
 ### An SRAM IP Uniquely designed with open source tools.
 
 Static RAM is a type of random-access memory that uses latching circuitry (flip-flop) to store each bit.
