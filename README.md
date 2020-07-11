@@ -22,7 +22,7 @@ During **write operation** i.e., to write Q=0 while initial Q=vdd or 1, when the
 To write logic 0, Bitlline should be logic 0 and BLbar is complemented to 1. 
 **Wordline is high**.
 
-During **Read operation** i.e., to read Q=vdd or 1, when the voltage at node Qbar reaches to a threshold voltage wherein NMOS M3 gets ON and the voltage at node Q starts to fall and the regenerative action of the cross-coupled inverter will force to flip the bit in a cell. 
+During **Read operation** i.e., to read Q=vdd or 1, when the voltage at node Qbar reaches to a threshold voltage wherein NMOS M3 gets ON and the voltage at node Q starts to fall and cross-coupled inverter state will force to flip the bit in a cell. 
 **Wordline is high**.
 
 
