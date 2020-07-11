@@ -6,7 +6,7 @@ Static RAM is a type of random-access memory that uses latching circuitry (flip-
 
 The Size of SRAM Specs is 32kbit/4k Bytes with 1.8v. 
 
-To get insight of Design Specifications of mem4kBytesOr32kbits, check [this](/Documentation/mem4kBytesOr32kbitsSpec.pdf).
+To get insight of mem4kBytesOr32kbits design Specifications, check [this](/Documentation/mem4kBytesOr32kbitsSpec.pdf).
 
 ## Block Symbol and pins
 
@@ -31,15 +31,15 @@ To Install Ngspice, Open terminal and Type
 
 ### To Clone the IP Repository
 
-1. Download the Zip file or use `git clone https://github.com/Anushar123/SRAM`
+1. Download the Zip file or use `git clone https://github.com/Anushar123/vsdsram`
 
-2. Change the path or directory using `cd/SRAM/Circuit-INV` to view the circuit.
+2. Change the path or directory using `cd vsdsram/Circuit-Inv` to view the circuit.
 
-3. Change the path or directory using `cd/SRAM/Netlist` to run the simulation.
+3. Change the path or directory using `cd vsdsram/Netlist` to run the simulation.
 
 ### To run PreLayout Simulations
 
-1. Go to the path or directory using `cd/SRAM/Netlist`
+1. Go to the path or directory using `cd vsdsram/Netlist`
 
 3. *To simulate transient Analysis* type :`ngspice Sram.cir.out`
 
@@ -133,7 +133,7 @@ sudo apt-get install qflow
 
 ### To View Magic Layouts
 
-1. Open the repository and change directory to `cd/Layout`
+1. Open the repository and change directory to `cd vsdsram/Layout`
 
 2. To view the layout, type on terminal : `magic sram6.mag` or `magic -T SCN6M_SUBM.10.tech sram6.mag`
 
