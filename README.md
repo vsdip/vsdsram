@@ -25,6 +25,21 @@ To write logic 0, Bitlline should be logic 0 and BLbar is complemented to 1.
 During **Read operation** i.e., to read Q=vdd or 1, when the voltage at node Qbar reaches to a threshold voltage wherein NMOS M3 gets ON and the voltage at node Q starts to fall and cross-coupled inverter state will force to flip the bit in a cell. 
 **Wordline is high**.
 
+### Cell Ratio and Pull-up Ratio Analysis
+
+**Cell Ratio** is the ratio between the sizes of the driver transistor to access transistor.
+
+From the circuit diagram reprsentation(transistor labels); For OSU180nm Technology.
+
+CR = ((W3/L3)/(W2/L2))=((W4/L4)/(W6/L6))=((0.36u/0.18u)/(0.36u/0.18u))=1 
+
+![](Waveforms/Ngspice/Spice/CellRatio.PNG) 
+
+**Pull-up Ratio** is the ratio between load transistor to the access transistor. 
+
+PR = ((W1/L1)/(W2/L2))=((W5/L5)/(W6/L6))=((0.9u/0.18u)/(0.36u/0.18u))=2.5
+
+![](Waveforms/Ngspice/Spice/PullupRatio.PNG) 
 
 ## Upcoming Future Works
 
